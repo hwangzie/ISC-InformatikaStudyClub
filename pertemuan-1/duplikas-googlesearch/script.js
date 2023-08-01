@@ -19,17 +19,17 @@ input.style.borderRadius = "10rem";
 input.style.width = "50%"
 
 const but1 = document.createElement("button");
-but1.innerHTML = "i feel lucky"
+but1.innerHTML = "Google search"
 but1.style.margin = "10px";
 but1.style.padding = "10px";
-but1.style.borderRadius = "14px";
+but1.style.borderRadius = "4px";
 but1.style.border = "1px solid #ccc";
 
 const but2 = document.createElement("button");
 but2.innerHTML = "i feel lucky"
 but2.style.margin = "10px";
 but2.style.padding = "10px";
-but2.style.borderRadius = "14px";
+but2.style.borderRadius = "4px";
 but2.style.border = "1px solid #ccc";
 
 const divbut = document.createElement("div");
