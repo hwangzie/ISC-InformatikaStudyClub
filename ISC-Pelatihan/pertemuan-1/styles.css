@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #526D82;
+}
+
+aside {
+    background-color: #526D82;
+}
+
+header {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    background-color: #27374D;
+    color: #DDE6ED;
+}
+
+footer {
+    background-color: #27374D;
+    color: #DDE6ED;
+    padding: 20px 0 0;
+    text-align: center;
+    height: 70px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+article {
+    
+    color: #DDE6ED;
+    .fotodiri {
+        margin: 20px 0 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .biodata {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-around; */
+        align-items: center;
+
+        .nama, .ttl, .alamat, .jk {
+            margin: -10px 0;
+        }
+    }
+    
+    .pendidikan {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        ul {
+            margin: -10px 2px;
+        }
+        
+    }
+
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    
+    .kontak {
+
+        form {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            
+        }
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin: 20px 10px 0;
+        width: 300px;
+        background-color: #9DB2BF;
+        color: #27374D;
+        border-radius: 10px;
+        border: 2px solid #9DB2BF;
+    
+        .formnama ,.formemail,.formkomen,.submit {
+            padding: 10px 0;
+        }
+
+        input, textarea {
+            background-color: #ffffff;
+            border-style: none;
+        }
+    
+        & textarea {
+            height: 17px;
+            width: 153px;
+        }
+        
+    }
+
+}
+
+
+
